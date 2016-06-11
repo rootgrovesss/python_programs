@@ -32,10 +32,12 @@ print common_numbers
 
 
 #TRYING ON RANDOM SETS
+m = input("Enter range : ")
+n = input("Enter lenght of list a : ")
+o = input("Enter lenght of list b : ")
+a = random.sample(range(m), n)
 
-a = random.sample(range(100), 10)
-
-b = random.sample(range(100), 10)
+b = random.sample(range(m), o)
 
 
 for i in a:
