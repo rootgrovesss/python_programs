@@ -35,8 +35,8 @@ print common_numbers
 m = input("Enter range : ")
 n = input("Enter lenght of list a : ")
 o = input("Enter lenght of list b : ")
-a = random.sample(range(m), n)
 
+a = random.sample(range(m), n)
 b = random.sample(range(m), o)
 
 
